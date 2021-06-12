@@ -1,19 +1,14 @@
-/*
-*  This is a multi-line comment
-*  Author: Mohamed Hafez
-*  Website: https://movewebdesign.com
-*  Custom Stylesheet
-*/
-body{
-    margin:0;
-    padding:0
-    
-}
 
 /*
 * Start Loader Styles
 */
-
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
 #loader {
     
     position: absolute;
@@ -64,32 +59,68 @@ body{
 */
 
 #callToAction{
-    height:860px;
+    height:868px;
     display: block;
     /*border-bottom: 2px solid red;*/
+    background-color: black;
     background-image: url('https://i.redd.it/059ri6oupr521.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 480px;
 }
 
-#callToAction2{
-    height:860px;
-    display: block;
-}
+
 
 #about{
-    padding-top:100px;
-    color:#fff;
+    padding-top:200px;
     display: block;
-    background:black
-    height:900px;
+    background:#FFEB97;
+    height:768px;
+    color:black;
+}
+
+#what{
+  padding-top:200px;
+  display: block;
+  background:#C70151;
+  color:#fff;
+  height:768px;
+}
+#how{
+  padding-top:200px;
+  display: block;
+  background:#43CDB3;
+  height:768px;
+  color:navy;
+
+}
+#why{
+  padding-top:200px;
+  display: block;
+  background:#034C67;
+  height:768px;
+  color:#fff;
+
+}
+#contact{
+  padding-top:200px;
+  display: block;
+  background:#fff;
+  height:768px;
+  color:#222;
+
 }
 
 .centerIt{
     width:80%;
     margin: 0 auto;
     text-align: center;
+}
+
+.customSection{
+  min-height:860px;
+  display: block;
+
 }
 
 
@@ -108,4 +139,9 @@ body{
     font-size:2.1rem;
 
 
+}
+
+.bigFont{
+  font-size:2rem;
+  margin-bottom: 50px;
 }
