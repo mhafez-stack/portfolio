@@ -73,7 +73,18 @@ body{
     padding-top: 480px;
 }
 
+#callToAction2{
+    height:860px;
+    display: block;
+}
 
+#about{
+    padding-top:100px;
+    color:#fff;
+    display: block;
+    background:black
+    height:900px;
+}
 
 .centerIt{
     width:80%;
