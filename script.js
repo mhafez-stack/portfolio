@@ -1,8 +1,9 @@
 var myVar;
 function myFunction() {
-  myVar = setTimeout(showPage, 1000);
+  myVar = setTimeout(showPage, 2000);
   document.getElementById("loader").style.display = "block";
   document.getElementById("main").style.display = "none";
+
 }
 function showPage() {
   document.getElementById("loader").style.display = "none";

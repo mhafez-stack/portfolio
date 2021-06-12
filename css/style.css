@@ -71,7 +71,7 @@
 
 
 
-#about{
+#aboutMe{
     padding-top:200px;
     display: block;
     background:#FFEB97;
@@ -129,7 +129,7 @@
     border:1px #fff solid;
     border-radius: 22px;
     padding:20px 40px 20px 40px;
-    font-family: cursive;
+    font-family:fantasy;
     font-size:2rem;
     background:rgb(226, 219, 219);
     opacity: .7;
